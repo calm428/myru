@@ -1,0 +1,14 @@
+services:
+  app:
+    image: 058264421407.dkr.ecr.us-west-2.amazonaws.com/paxai-assistant-chatbot
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - PORT=5050
+      - HOSTNAME=0.0.0.0
+      - LLM_POD_ID=ayszlyiksblkie
+      - LLM_MODEL=llama3:8b
+      - VLM_POD_ID=ayszlyiksblkie
+      - VLM_MODEL=llava:34b
+    ports:
+      - 88:5050

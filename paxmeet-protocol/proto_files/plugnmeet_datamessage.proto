@@ -1,0 +1,73 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+message DataMessage {
+  DataMsgType type = 1;
+  optional string message_id = 2;
+  string room_sid = 3;
+  string room_id = 4;
+  optional string to = 5;
+  DataMsgBody body = 6;
+}
+
+message DataMsgBody {
+  DataMsgBodyType type = 1;
+  optional string message_id = 2;
+  optional string time = 3;
+  DataMsgReqFrom from = 4;
+  string msg = 5;
+  optional uint32 is_private = 6;
+}
+
+message DataMsgReqFrom {
+  string sid = 1;
+  string user_id = 2;
+  optional string name = 3;
+}
+
+enum DataMsgType {
+  USER = 0;
+  SYSTEM = 1;
+  WHITEBOARD = 2;
+}
+
+enum DataMsgBodyType {
+  // SYSTEM type
+  RAISE_HAND = 0;
+  LOWER_HAND = 1;
+  OTHER_USER_LOWER_HAND = 2;
+  FILE_UPLOAD = 3;
+  INFO = 4;
+  ALERT = 5;
+  SEND_CHAT_MSGS = 6;
+  RENEW_TOKEN = 7;
+  UPDATE_LOCK_SETTINGS = 8;
+  INIT_WHITEBOARD = 9;
+  USER_VISIBILITY_CHANGE = 10;
+  EXTERNAL_MEDIA_PLAYER_EVENTS = 11;
+  POLL_CREATED = 12;
+  NEW_POLL_RESPONSE = 13;
+  POLL_CLOSED = 14;
+  JOIN_BREAKOUT_ROOM = 15;
+  SPEECH_SUBTITLE_TEXT = 23;
+  AZURE_COGNITIVE_SERVICE_SPEECH_TOKEN = 24;
+  UPDATE_ROOM_METADATA = 25;
+  
+  // USER type
+  CHAT = 16;
+  
+  // WHITEBOARD type
+  SCENE_UPDATE = 17;
+  POINTER_UPDATE = 18;
+  ADD_WHITEBOARD_FILE = 19;
+  ADD_WHITEBOARD_OFFICE_FILE = 20;
+  PAGE_CHANGE = 21;
+  WHITEBOARD_APP_STATE_CHANGE = 22;
+
+  // analytics
+  ANALYTICS_DATA = 27;
+
+  // next ID: 28
+}

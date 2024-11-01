@@ -1,0 +1,100 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "livekit_models.proto";
+import "buf/validate/validate.proto";
+
+message GetActiveRoomInfoReq {
+  string room_id = 1 [(buf.validate.field).required = true];
+}
+
+message ActiveRoomInfoRes {
+  bool status = 1;
+  string msg = 2;
+  optional ActiveRoomInfo room_info = 3;
+  repeated livekit.ParticipantInfo participants_info = 4;
+}
+
+message ActiveRoomInfo {
+  string room_title = 1;
+  string room_id = 2;
+  string sid = 3;
+  int64 joined_participants = 4;
+  int32 is_running = 5;
+  int32 is_recording = 6;
+  int32 is_active_rtmp = 7;
+  string webhook_url = 8;
+  int32 is_breakout_room = 9;
+  string parent_room_id = 10;
+  int64 creation_time = 11;
+  string metadata = 12;
+}
+
+message RoomEndReq {
+  string room_id = 1 [(buf.validate.field).required = true];
+}
+
+message RoomEndRes {
+  bool status = 1;
+  string msg = 2;
+}
+
+message IsRoomActiveReq {
+  string room_id = 1 [(buf.validate.field).required = true];
+}
+
+message IsRoomActiveRes {
+  bool status = 1;
+  string msg = 2;
+}
+
+message ActiveRoomWithParticipant {
+  optional ActiveRoomInfo room_info = 3;
+  repeated livekit.ParticipantInfo participants_info = 4;
+}
+
+message GetActiveRoomInfoRes {
+  bool status = 1;
+  string msg = 2;
+  ActiveRoomWithParticipant room = 3;
+}
+
+message GetActiveRoomsInfoRes {
+  bool status = 1;
+  string msg = 2;
+  repeated ActiveRoomWithParticipant rooms = 3;
+}
+
+message PastRoomInfo {
+  string room_title = 1;
+  string room_id = 2;
+  string room_sid = 3;
+  int64 joined_participants = 4;
+  string webhook_url = 5;
+  string created = 6;
+  string ended = 7;
+  string analytics_file_id = 8;
+}
+
+message FetchPastRoomsReq {
+  repeated string room_ids = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+}
+
+message FetchPastRoomsResult {
+  int64 total_rooms = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+  repeated PastRoomInfo rooms_list = 5;
+}
+
+message FetchPastRoomsRes{
+  bool status = 1;
+  string msg = 2;
+  FetchPastRoomsResult result = 3;
+}

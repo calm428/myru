@@ -1,0 +1,12 @@
+services:
+  app:
+    image: 058264421407.dkr.ecr.us-west-2.amazonaws.com/myru-user-instance
+    restart: on-failure:5
+    volumes:
+      - ./.env.production:/app/.env.production
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    ports:
+      - 100:3000

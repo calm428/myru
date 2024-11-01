@@ -1,0 +1,46 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "livekit_models.proto";
+
+message CommonNotifyEvent {
+  optional string event = 1;
+  optional NotifyEventRoom room = 2;
+  optional livekit.ParticipantInfo participant = 3;
+  optional RecordingInfoEvent recording_info = 4;
+  optional SpeechServiceEvent speech_service = 5;
+  optional livekit.TrackInfo track = 6;
+  optional AnalyticsEvent analytics = 7;
+  optional string id = 9;
+  optional int64 created_at = 10;
+}
+
+message NotifyEventRoom {
+  optional string sid = 1;
+  optional string room_id = 2;
+  optional uint32 empty_timeout = 3;
+  optional uint32 max_participants = 4;
+  optional uint64 creation_time = 5;
+  repeated livekit.Codec enabled_codecs = 6;
+  optional string metadata = 7;
+  optional uint32 num_participants = 8;
+}
+
+message RecordingInfoEvent {
+  string record_id = 1;
+  string recorder_id = 2;
+  string recorder_msg = 3;
+  optional string  file_path = 4;
+  optional float file_size = 5;
+}
+
+message SpeechServiceEvent {
+  optional string user_id = 3;
+  int64 total_usage = 4;
+}
+
+message AnalyticsEvent {
+  optional string file_id = 1;
+}

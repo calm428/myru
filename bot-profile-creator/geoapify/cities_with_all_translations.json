@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Сочи",
+    "name:en": "Sochi",
+    "name:es": "Sochi",
+    "name:ru": "Сочи",
+    "name:ka": "სოჭი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нальчик",
+    "name:en": "Nalchik",
+    "name:es": "Nálchik",
+    "name:ru": "Нальчик",
+    "name:ka": "ნალჩიკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владикавказ",
+    "name:en": "Vladikavkaz",
+    "name:es": "Vladicáucaso",
+    "name:ru": "Владикавказ",
+    "name:ka": "ვლადიკავკაზი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Назрань",
+    "name:en": "Nazran",
+    "name:es": "Nazrán",
+    "name:ru": "Назрань",
+    "name:ka": "ნაზრანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пятигорск",
+    "name:en": "Pyatigorsk",
+    "name:es": "Piatigorsk",
+    "name:ru": "Пятигорск",
+    "name:ka": "პიატიგორსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Дербент",
+    "name:en": "Derbent",
+    "name:es": "Derbent",
+    "name:ru": "Дербент",
+    "name:ka": "დერბენტი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Грозный",
+    "name:en": "Grozny",
+    "name:es": "Grozni",
+    "name:ru": "Грозный",
+    "name:ka": "გროზნო",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Махачкала",
+    "name:en": "Makhachkala",
+    "name:es": "Majachkalá",
+    "name:ru": "Махачкала",
+    "name:ka": "მაჰაჩყალა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Калининград",
+    "name:en": "Kaliningrad",
+    "name:es": "Kaliningrado",
+    "name:ru": "Калининград",
+    "name:ka": "კალინინგრადი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Краснодар",
+    "name:en": "Krasnodar",
+    "name:es": "كراسنودار",
+    "name:ru": "Краснодар",
+    "name:ka": "კრასნოდარი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Таганрог",
+    "name:en": "Taganrog",
+    "name:es": "Taganrog",
+    "name:ru": "Таганрог",
+    "name:ka": "ტაგანროგი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "name:en": "Rostov-on-Don",
+    "name:es": "Rostov del Don",
+    "name:ru": "Ростов-на-Дону",
+    "name:ka": "დონის როსტოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Брянск",
+    "name:en": "Bryansk",
+    "name:es": "Briansk",
+    "name:ru": "Брянск",
+    "name:ka": "ბრიანსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воронеж",
+    "name:en": "Voronezh",
+    "name:es": "Vorónezh",
+    "name:ru": "Воронеж",
+    "name:ka": "ვორონეჟი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Обнинск",
+    "name:en": "Obninsk",
+    "name:es": "Óbninsk",
+    "name:ru": "Обнинск",
+    "name:ka": "ობნინსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Люберцы",
+    "name:en": "Lyubertsy",
+    "name:es": "Liúbertsy",
+    "name:ru": "Люберцы",
+    "name:ka": "ლიუბერცი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Москва",
+    "name:en": "Moscow",
+    "name:es": "Moscú",
+    "name:ru": "Москва",
+    "name:ka": "მოსკოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Липецк",
+    "name:en": "Lipetsk",
+    "name:es": "Lípetsk",
+    "name:ru": "Липецк",
+    "name:ka": "ლიპეცკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рязань",
+    "name:en": "Ryazan",
+    "name:es": "Riazán",
+    "name:ru": "Рязань",
+    "name:ka": "რიაზანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владимир",
+    "name:en": "Vladimir",
+    "name:es": "Vladímir",
+    "name:ru": "Владимир",
+    "name:ka": "ვლადიმირი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Санкт-Петербург",
+    "name:en": "Saint Petersburg",
+    "name:es": "San Petersburgo",
+    "name:ru": "Санкт-Петербург",
+    "name:ka": "სანქტ-პეტერბურგი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижний Новгород",
+    "name:en": "Nizhny Novgorod",
+    "name:es": "Nizhni Novgorod",
+    "name:ru": "Нижний Новгород",
+    "name:ka": "ნიჟნი-ნოვგოროდი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Архангельск",
+    "name:en": "Arkhangelsk",
+    "name:es": "Arjángelsk",
+    "name:ru": "Архангельск",
+    "name:ka": "არხანგელსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Астрахань",
+    "name:en": "Astrakhan",
+    "name:es": "Astracán",
+    "name:ru": "Астрахань",
+    "name:ka": "ასტრახანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Саратов",
+    "name:en": "Saratov",
+    "name:es": "Sarátov",
+    "name:ru": "Саратов",
+    "name:ka": "სარატოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Самара",
+    "name:en": "Samara",
+    "name:es": "Samara",
+    "name:ru": "Самара",
+    "name:ka": "სამარა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ульяновск",
+    "name:en": "Ulyanovsk",
+    "name:es": "Uliánovsk",
+    "name:ru": "Ульяновск",
+    "name:ka": "ულიანოვსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Казань",
+    "name:en": "Kazan",
+    "name:es": "Kazán",
+    "name:ru": "Казань",
+    "name:ka": "ყაზანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Набережные Челны",
+    "name:en": "Naberezhnye Chelny",
+    "name:es": "Náberezhnye Chelny",
+    "name:ru": "Набережные Челны",
+    "name:ka": "ნაბერეჟნიე ჩელნი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Магнитогорск",
+    "name:en": "Magnitogorsk",
+    "name:es": "Magnitogorsk",
+    "name:ru": "Магнитогорск",
+    "name:ka": "მაგნიტოგორსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Златоуст",
+    "name:en": "Zlatoust",
+    "name:es": "Zlatoust",
+    "name:ru": "Златоуст",
+    "name:ka": "ზლატოუსტი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Челябинск",
+    "name:en": "Chelyabinsk",
+    "name:es": "Cheliábinsk",
+    "name:ru": "Челябинск",
+    "name:ka": "ჩელიაბინსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сыктывкар",
+    "name:en": "Syktyvkar",
+    "name:es": "Syktyvkar",
+    "name:ru": "Сыктывкар",
+    "name:ka": "სიქტივკარი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сочи",
+    "name:en": "Sochi",
+    "name:es": "Sochi",
+    "name:ru": "Сочи",
+    "name:ka": "სოჭი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нальчик",
+    "name:en": "Nalchik",
+    "name:es": "Nálchik",
+    "name:ru": "Нальчик",
+    "name:ka": "ნალჩიკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владикавказ",
+    "name:en": "Vladikavkaz",
+    "name:es": "Vladicáucaso",
+    "name:ru": "Владикавказ",
+    "name:ka": "ვლადიკავკაზი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Назрань",
+    "name:en": "Nazran",
+    "name:es": "Nazrán",
+    "name:ru": "Назрань",
+    "name:ka": "ნაზრანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пятигорск",
+    "name:en": "Pyatigorsk",
+    "name:es": "Piatigorsk",
+    "name:ru": "Пятигорск",
+    "name:ka": "პიატიგორსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Грозный",
+    "name:en": "Grozny",
+    "name:es": "Grozni",
+    "name:ru": "Грозный",
+    "name:ka": "გროზნო",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Махачкала",
+    "name:en": "Makhachkala",
+    "name:es": "Majachkalá",
+    "name:ru": "Махачкала",
+    "name:ka": "მაჰაჩყალა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Калининград",
+    "name:en": "Kaliningrad",
+    "name:es": "Kaliningrado",
+    "name:ru": "Калининград",
+    "name:ka": "კალინინგრადი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Смоленск",
+    "name:en": "Smolensk",
+    "name:es": "Smolensk",
+    "name:ru": "Смоленск",
+    "name:ka": "სმოლენსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Краснодар",
+    "name:en": "Krasnodar",
+    "name:es": "Krasnodar",
+    "name:ru": "Краснодар",
+    "name:ka": "კრასნოდარი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Таганрог",
+    "name:en": "Taganrog",
+    "name:es": "Taganrog",
+    "name:ru": "Таганрог",
+    "name:ka": "ტაგანროგი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "name:en": "Rostov-on-Don",
+    "name:es": "Rostov del Don",
+    "name:ru": "Ростов-на-Дону",
+    "name:ka": "დონის როსტოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новочеркасск",
+    "name:en": "Novocherkassk",
+    "name:es": "Novocherkask",
+    "name:ru": "Новочеркасск",
+    "name:ka": "ნოვოჩერკასკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волгоград",
+    "name:en": "Volgograd",
+    "name:es": "Volgogrado",
+    "name:ru": "Волгоград",
+    "name:ka": "ვოლგოგრადი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Брянск",
+    "name:en": "Bryansk",
+    "name:es": "Briansk",
+    "name:ru": "Брянск",
+    "name:ka": "ბრიანსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воронеж",
+    "name:en": "Voronezh",
+    "name:es": "Vorónezh",
+    "name:ru": "Воронеж",
+    "name:ka": "ვორონეჟი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Обнинск",
+    "name:en": "Obninsk",
+    "name:es": "Óbninsk",
+    "name:ru": "Обнинск",
+    "name:ka": "ობნინსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Люберцы",
+    "name:en": "Lyubertsy",
+    "name:es": "Liúbertsy",
+    "name:ru": "Люберцы",
+    "name:ka": "ლიუბერცი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Москва",
+    "name:en": "Moscow",
+    "name:es": "Moscú",
+    "name:ru": "Москва",
+    "name:ka": "მოსკოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рязань",
+    "name:en": "Ryazan",
+    "name:es": "Riazán",
+    "name:ru": "Рязань",
+    "name:ka": "რიაზანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владимир",
+    "name:en": "Vladimir",
+    "name:es": "Vladímir",
+    "name:ru": "Владимир",
+    "name:ka": "ვლადიმირი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Псков",
+    "name:en": "Pskov",
+    "name:es": "Pskov",
+    "name:ru": "Псков",
+    "name:ka": "ფსკოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Великий Новгород",
+    "name:en": "Veliky Novgorod",
+    "name:es": "Nóvgorod",
+    "name:ru": "Великий Новгород",
+    "name:ka": "დიდი ნოვგოროდი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Санкт-Петербург",
+    "name:en": "Saint Petersburg",
+    "name:es": "San Petersburgo",
+    "name:ru": "Санкт-Петербург",
+    "name:ka": "სანქტ-პეტერბურგი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижний Новгород",
+    "name:en": "Nizhny Novgorod",
+    "name:es": "Nizhni Novgorod",
+    "name:ru": "Нижний Новгород",
+    "name:ka": "ნიჟნი-ნოვგოროდი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Архангельск",
+    "name:en": "Arkhangelsk",
+    "name:es": "Arjángelsk",
+    "name:ru": "Архангельск",
+    "name:ka": "არხანგელსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Астрахань",
+    "name:en": "Astrakhan",
+    "name:es": "Astracán",
+    "name:ru": "Астрахань",
+    "name:ka": "ასტრახანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Саратов",
+    "name:en": "Saratov",
+    "name:es": "Sarátov",
+    "name:ru": "Саратов",
+    "name:ka": "სარატოვი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Самара",
+    "name:en": "Samara",
+    "name:es": "Samara",
+    "name:ru": "Самара",
+    "name:ka": "სამარა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ульяновск",
+    "name:en": "Ulyanovsk",
+    "name:es": "Uliánovsk",
+    "name:ru": "Ульяновск",
+    "name:ka": "ულიანოვსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Казань",
+    "name:en": "Kazan",
+    "name:es": "Kazán",
+    "name:ru": "Казань",
+    "name:ka": "ყაზანი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Набережные Челны",
+    "name:en": "Naberezhnye Chelny",
+    "name:es": "Náberezhnye Chelny",
+    "name:ru": "Набережные Челны",
+    "name:ka": "ნაბერეჟნიე ჩელნი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Магнитогорск",
+    "name:en": "Magnitogorsk",
+    "name:es": "Magnitogorsk",
+    "name:ru": "Магнитогорск",
+    "name:ka": "მაგნიტოგორსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Златоуст",
+    "name:en": "Zlatoust",
+    "name:es": "Zlatoust",
+    "name:ru": "Златоуст",
+    "name:ka": "ზლატოუსტი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Челябинск",
+    "name:en": "Chelyabinsk",
+    "name:es": "Cheliábinsk",
+    "name:ru": "Челябинск",
+    "name:ka": "ჩელიაბინსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сыктывкар",
+    "name:en": "Syktyvkar",
+    "name:es": "Syktyvkar",
+    "name:ru": "Сыктывкар",
+    "name:ka": "სიქტივკარი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Омск",
+    "name:en": "Omsk",
+    "name:es": "Omsk",
+    "name:ru": "Омск",
+    "name:ka": "ომსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  }
+]

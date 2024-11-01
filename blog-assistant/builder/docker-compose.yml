@@ -1,0 +1,12 @@
+services:
+  app:
+    image: myru-blog-assistant
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - PORT=5050
+      - HOSTNAME=0.0.0.0
+      - LLM_POD_ID=<pod_id>
+      - LLM_MODEL=llama3:8b
+    ports:
+      - "5050:5050/tcp"

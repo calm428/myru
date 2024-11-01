@@ -1,0 +1,84 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "buf/validate/validate.proto";
+
+message GenerateTokenReq {
+  string room_id = 1 [(buf.validate.field).cel = {
+    id: "room_id_format",
+    message: "room_id should only contain letters, digits or special characters: -_.:",
+    expression: "this.matches('^[a-zA-Z0-9-_.:]+$')"
+  }];
+  UserInfo user_info = 2 [(buf.validate.field).required = true];
+}
+
+message UserInfo {
+  string name = 1 [(buf.validate.field).required = true];
+  string user_id = 2 [(buf.validate.field).cel = {
+    id: "user_id_format",
+    message: "user_id should only contain letters, digits or special characters: -_.@",
+    expression: "this.matches('^[a-zA-Z0-9-_.@]+$')"
+  }];
+  bool is_admin = 3;
+  bool is_hidden = 4;
+  UserMetadata user_metadata = 5;
+}
+
+message UserMetadata {
+  optional string profile_pic = 1 [(buf.validate.field).string.uri = true];
+  bool is_admin = 2;
+  optional bool record_webcam = 7;
+  bool is_presenter = 3 [(buf.validate.field).bool.const = false];
+  bool raised_hand = 4 [(buf.validate.field).bool.const = false];
+  bool wait_for_approval = 5 [(buf.validate.field).bool.const = false];
+  optional string preferred_lang = 9;
+  LockSettings lock_settings = 6;
+  // we'll use this as version control
+  optional string metadata_id = 8 [(buf.validate.field).cel = {
+    id: "metadata_id_format",
+    message: "metadata_id should not contain any value",
+    expression: "this.matches('^$')"
+  }];
+  // Next ID: 10
+}
+
+message PlugNmeetTokenClaims {
+  string name = 1;
+  string user_id = 2;
+  string room_id = 3;
+  bool is_admin = 4;
+  bool is_hidden = 5;
+}
+
+message LockSettings {
+  optional bool lock_microphone = 1;
+  optional bool lock_webcam = 2;
+  optional bool lock_screen_sharing = 3;
+  optional bool lock_chat = 4;
+  optional bool lock_chat_send_message = 5;
+  optional bool lock_chat_file_share = 6;
+  optional bool lock_private_chat = 7;
+  optional bool lock_whiteboard = 8;
+  optional bool lock_shared_notepad = 9;
+}
+
+message GenerateTokenRes {
+  bool status = 1;
+  string msg = 2;
+  optional string token = 3;
+}
+
+message CustomDesignParams {
+  optional string primary_color = 1;
+  optional string secondary_color = 2;
+  optional string background_color = 3;
+  optional string background_image = 4;
+  optional string header_bg_color = 5;
+  optional string footer_bg_color = 6;
+  optional string left_side_bg_color = 7;
+  optional string right_side_bg_color = 8;
+  optional string custom_css_url = 9;
+  optional string custom_logo = 10;
+}

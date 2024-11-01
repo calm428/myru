@@ -1,0 +1,10 @@
+services:
+  app:
+    image: 058264421407.dkr.ecr.us-west-2.amazonaws.com/myru-admin-office
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    ports:
+      - 86:3000

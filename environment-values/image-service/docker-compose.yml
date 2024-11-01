@@ -1,0 +1,20 @@
+services:
+  img-proxy:
+    image: ghcr.io/willnorris/imageproxy:main
+    restart: on-failure:5
+    ports:
+      - 85:8080
+  img-store:
+    image: nginx:1-alpine
+    restart: on-failure:5
+    volumes:
+      - ./nginx:/etc/nginx/
+      - ../server-data/img-store:/server-data/img-store
+    ports:
+      - 84:80
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s

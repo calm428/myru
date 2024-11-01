@@ -1,0 +1,93 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+message PlugNmeetToRecorder {
+  string from = 1;
+  RecordingTasks task = 2;
+  int64 room_table_id = 3;
+  string room_id = 4;
+  string room_sid = 5;
+  string recording_id = 6;
+  string recorder_id = 7;
+  string access_token = 8;
+  optional string rtmp_url = 9;
+}
+
+message RecorderToPlugNmeet {
+  string from = 1;
+  RecordingTasks task = 2;
+  bool status = 3;
+  string msg = 4;
+  string recording_id = 5;
+  int64 room_table_id = 11;
+  string room_id = 6;
+  string room_sid = 7;
+  string recorder_id = 8;
+  string file_path = 9;
+  float file_size = 10;
+  // next key 12
+}
+
+message FromParentToChild {
+  RecordingTasks task = 1;
+  string recording_id = 2;
+  int64 room_table_id = 3;
+}
+
+message FromChildToParent {
+  RecordingTasks task = 1;
+  bool status = 2;
+  string msg = 3;
+  string recording_id = 4;
+  int64 room_table_id = 5;
+}
+
+enum RecordingTasks {
+  START_RECORDING = 0;
+  STOP_RECORDING = 1;
+  START_RTMP = 2;
+  STOP_RTMP = 3;
+  
+  END_RECORDING = 4;
+  END_RTMP = 5;
+  
+  RECORDING_PROCEEDED = 6;
+  
+  STOP = 7;
+}
+
+message StartRecorderChildArgs {
+  int64 room_table_id = 1;
+  string recording_id = 2;
+  string access_token = 4;
+  PlugNmeetInfo plug_n_meet_info = 5;
+  bool post_mp4_convert = 6;
+  CopyToPath copy_to_path = 7;
+  RecorderServiceType serviceType = 8;
+  optional string recorder_id = 9;
+  optional string rtmp_url = 10;
+  string websocket_url = 11;
+  optional string custom_chrome_path = 12;
+  optional uint32 width = 13;
+  optional uint32 height = 14;
+  optional uint32 xvfb_dpi = 15;
+}
+
+message PlugNmeetInfo {
+  string host = 1;
+  string api_key = 2;
+  string api_secret = 3;
+  optional string join_host = 4;
+}
+
+message CopyToPath {
+  string main_path = 1;
+  optional string sub_path = 2;
+}
+
+enum RecorderServiceType {
+  RECORDING = 0;
+  RTMP = 1;
+}

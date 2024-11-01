@@ -1,0 +1,10 @@
+services:
+  app:
+    image: myru-admin-office
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    ports:
+      - '3000:3000/tcp'

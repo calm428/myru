@@ -1,0 +1,121 @@
+services:
+  redis:
+    image: redis:7-alpine
+    restart: on-failure:5
+    # ports:
+    #   - "6379:6379/tcp"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  mariadb:
+    image: mariadb:10.11
+    restart: on-failure:5
+    environment:
+      MYSQL_ROOT_PASSWORD: <password>
+    # ports:
+    #   - "3306:3306/tcp"
+    volumes:
+      - ../server-data/mariadb-data:/var/lib/mysql
+      - ./sql_dump/install.sql:/docker-entrypoint-initdb.d/install.sql
+    healthcheck:
+      test:
+        ["CMD", "mysqladmin", "--user=root", "--password=<password>", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  livekit:
+    image: livekit/livekit-server:v1.5.3
+    restart: on-failure:5
+    ports:
+      # - "7880:7880/tcp"
+      - "7881:7881/tcp"
+      - "7882:7882/udp"
+      # - "50000-60000:50000-60000/udp"
+    volumes:
+      - ./livekit.yaml:/app/livekit.yaml
+    command: --config "/app/livekit.yaml" --dev
+    depends_on:
+      - redis
+
+  # livekit-ingress:
+  #   image: livekit/ingress:v1.3.0
+  #   restart: on-failure:5
+  #   # ports:
+  #   #   - "1935:1935/tcp"
+  #   #   - "8088:8088/tcp"
+  #   #   - "8089:8089/tcp"
+  #   volumes:
+  #     - ./ingress.yaml:/app/ingress.yaml
+  #   command: --config "/app/ingress.yaml"
+  #   depends_on:
+  #     - redis
+  #     - livekit
+
+  etherpad:
+    image: mynaparrot/plugnmeet-etherpad:v1.9.5
+    restart: on-failure:5
+    # ports:
+    #   - "9001:9001/tcp"
+    volumes:
+      - ./etherpad-config/APIKEY.txt:/opt/etherpad-lite/APIKEY.txt
+      - ./etherpad-config/settings.json:/opt/etherpad-lite/settings.json
+      # mount fonts as read only mood
+      # - /usr/share/fonts/:/usr/share/fonts/:ro
+      # - /etc/fonts/:/etc/fonts/:ro
+      # - /usr/share/fontconfig/:/usr/share/fontconfig/:ro
+      # - /var/cache/fontconfig/:/var/cache/fontconfig/:ro
+    depends_on:
+      - redis
+
+  paxmeet-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod # Dockerfile.dev when development mode, Dockerfile.prod when production mode
+      args:
+        BITBUCKET_PAXMEET_PROTOCOL_REPO_ACCESS_TOKEN: <token>
+    restart: on-failure:5
+    image: paxmeet-server:latest-prod # paxmeet-server:latest-dev when development mode, paxmeet-server:latest-prod when production modes
+    # ports:
+    #   - "5000:5000/tcp"
+    volumes:
+      # - .:/app # need when development mode
+      - ./config.yaml:/app/config.yaml # need when production mode
+      - ../paxmeet-client/dist:/app/client/dist
+      - ../server-data/recording_files:/app/recording_files
+      - ../server-data/analytics:/app/analytics
+      - ../server-data/upload:/app/upload
+      - ../server-data/log:/app/log
+      # mount fonts as read only mood
+      # - /usr/share/fonts/:/usr/share/fonts/:ro
+      # - /etc/fonts/:/etc/fonts/:ro
+      # - /usr/share/fontconfig/:/usr/share/fontconfig/:ro
+      # - /var/cache/fontconfig/:/var/cache/fontconfig/:ro
+    depends_on:
+      - redis
+      - mariadb
+      - livekit
+      # - livekit-ingresss
+      - etherpad
+
+  nginx:
+    image: nginx:1-alpine
+    restart: on-failure:5
+    volumes:
+      - ./nginx:/etc/nginx/
+    ports:
+      - 80:80
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    depends_on:
+      - paxmeet-server
+      - livekit

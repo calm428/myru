@@ -1,0 +1,18 @@
+FROM golang:1.21-alpine
+
+ARG BITBUCKET_MYRU_PROTOCOL_REPO_ACCESS_TOKEN
+
+RUN apk --no-cache add wget libreoffice mupdf-tools git
+
+RUN go install github.com/air-verse/air@latest
+
+WORKDIR /app
+
+RUN mkdir protocol
+COPY go.mod .
+COPY go.sum .
+COPY protocol/clone_https.sh protocol/clone_https.sh
+RUN cd protocol && chmod +x ./clone_https.sh && ./clone_https.sh $BITBUCKET_MYRU_PROTOCOL_REPO_ACCESS_TOKEN
+RUN go mod download
+
+CMD air

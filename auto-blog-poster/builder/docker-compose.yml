@@ -1,0 +1,14 @@
+services:
+  app:
+    image: myru-auto-blog-poster
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - LLM_POD_ID=<pod_id>
+      - LLM_MODEL=llama3:8b
+      - SDXL_TURBO_ENDPOINT_ID=<endpoint_id>
+      - RUNPOD_API_KEY=<runpod_api_key>
+    volumes:
+      - ./blog-data:/app/blog-data
+      - ./user-data:/app/user-data
+      - ./.env.production:/app/.env

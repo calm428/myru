@@ -1,0 +1,68 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "buf/validate/validate.proto";
+import "plugnmeet_auth_room.proto";
+
+message FetchRecordingsReq {
+  repeated string room_ids = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+}
+
+message RecordingInfo {
+  string record_id = 1;
+  string room_id = 2;
+  string room_sid = 3;
+  string file_path = 4;
+  float file_size = 5;
+  int64 creation_time = 6;
+  int64 room_creation_time = 7;
+}
+
+message FetchRecordingsResult {
+  int64 total_recordings = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+  repeated RecordingInfo recordings_list = 5;
+}
+
+message FetchRecordingsRes{
+  bool status = 1;
+  string msg = 2;
+  FetchRecordingsResult result = 3;
+}
+
+message RecordingInfoReq {
+  string record_id = 1 [(buf.validate.field).required = true];
+}
+
+message RecordingInfoRes {
+  bool status = 1;
+  string msg = 2;
+  RecordingInfo recording_info = 3;
+  PastRoomInfo room_info = 4;
+}
+
+message DeleteRecordingReq {
+  string record_id = 1 [(buf.validate.field).required = true];
+}
+
+message DeleteRecordingRes {
+  bool status = 1;
+  string msg = 2;
+}
+
+message GetDownloadTokenReq {
+  string record_id = 1 [(buf.validate.field).required = true];
+}
+
+message GetDownloadTokenRes {
+  bool status = 1;
+  string msg = 2;
+  optional string token = 3;
+}

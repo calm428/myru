@@ -1,0 +1,14 @@
+services:
+  app:
+    image: myru-assistant-chatbot
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - PORT=5050
+      - HOSTNAME=0.0.0.0
+      - LLM_POD_ID=<pod_id>
+      - LLM_MODEL=llama3:8b
+      - VLM_POD_ID=<pod_id>
+      - VLM_MODEL=llava:34b
+    ports:
+      - "5050:5050/tcp"

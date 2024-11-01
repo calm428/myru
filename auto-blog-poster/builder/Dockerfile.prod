@@ -1,0 +1,11 @@
+FROM keymetrics/pm2:18-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY utils ./utils
+COPY generate_and_post_article.js post_articles_with_scheduler.js scheduler.js ./
+
+CMD ["pm2-runtime", "scheduler.js"]

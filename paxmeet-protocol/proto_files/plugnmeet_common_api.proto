@@ -1,0 +1,137 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "plugnmeet_datamessage.proto";
+
+message CommonResponse {
+  bool status = 1;
+  string msg = 2;
+}
+
+message VerifyTokenReq {
+  optional bool is_production = 1;
+}
+
+message VerifyTokenRes {
+  bool status = 1;
+  string msg = 2;
+  optional string livekit_host = 3;
+  optional string token = 4;
+  optional string server_version = 5;
+  bool enabled_e2ee = 6;
+}
+
+message MuteUnMuteTrackReq {
+  string sid = 1;
+  string room_id = 2;
+  string user_id = 3;
+  string track_sid = 4;
+  bool muted = 5;
+  string Requested_user_id = 6;
+}
+
+message RemoveParticipantReq {
+  string sid = 1;
+  string room_id = 2;
+  string user_id = 3;
+  string msg = 4;
+  bool block_user = 5;
+}
+
+message DataMessageReq {
+  string room_id = 1;
+  string room_sid = 2;
+  string user_id = 3;
+  string user_sid = 4;
+  DataMsgBodyType msg_body_type = 5;
+  string msg = 6;
+  string Requested_user_id = 7;
+  repeated string send_to = 8;
+  bool is_admin = 9;
+}
+
+message RoomEndAPIReq {
+  string room_id = 1;
+}
+
+message ChangeVisibilityRes {
+  string room_id = 1;
+  optional bool visible_notepad = 2;
+  optional bool visible_white_board = 3;
+}
+
+enum SwitchPresenterTask {
+  PROMOTE = 0;
+  DEMOTE = 1;
+}
+
+message SwitchPresenterReq {
+  SwitchPresenterTask task = 1;
+  string user_id = 2;
+  string room_id = 3;
+  string Requested_user_id = 4;
+}
+
+enum ExternalMediaPlayerTask {
+  START_PLAYBACK = 0;
+  END_PLAYBACK = 1;
+}
+
+message ExternalMediaPlayerReq {
+  ExternalMediaPlayerTask task = 1;
+  optional string url = 2;
+  optional double seek_to = 3;
+  string room_id = 4;
+  string user_id = 5;
+}
+
+enum ExternalDisplayLinkTask {
+  START_EXTERNAL_LINK = 0;
+  STOP_EXTERNAL_LINK = 1;
+}
+
+message ExternalDisplayLinkReq {
+  ExternalDisplayLinkTask task = 1;
+  optional string url = 2;
+  string room_id = 4;
+  string user_id = 5;
+}
+
+message CreateEtherpadSessionRes {
+  bool status = 1;
+  string msg = 2;
+  optional string pad_id = 3;
+  optional string readonly_pad_id = 4;
+}
+
+message CleanEtherpadReq {
+  string room_id = 1;
+  string node_id = 2;
+  string pad_id = 3;
+}
+
+message ChangeEtherpadStatusReq {
+  string room_id = 1;
+  bool is_active = 2;
+}
+
+message ApproveWaitingUsersReq {
+  string room_id = 1;
+  string user_id = 2;
+}
+
+message UpdateWaitingRoomMessageReq {
+  string room_id = 1;
+  string msg = 2;
+}
+
+message UpdateUserLockSettingsReq {
+  string room_sid = 1;
+  string room_id = 2;
+  string user_id = 3;
+  string service = 4;
+  string direction = 5;
+  string Requested_user_id = 6;
+}

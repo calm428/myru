@@ -1,0 +1,11 @@
+# db data
+redis_data
+postgres_data
+rabbitmq_data
+rabbitmq_logs
+
+# bininary
+bin/*
+
+# temp
+tmp

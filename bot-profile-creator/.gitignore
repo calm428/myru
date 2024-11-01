@@ -1,0 +1,8 @@
+.env
+
+node_modules
+
+geoapify/geoapify_downloads
+photos/assets
+photos/*.zip
+photos/results.json

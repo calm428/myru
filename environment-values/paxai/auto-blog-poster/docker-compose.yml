@@ -1,0 +1,14 @@
+services:
+  app:
+    image: 058264421407.dkr.ecr.us-west-2.amazonaws.com/paxai-auto-blog-poster
+    restart: on-failure:5
+    environment:
+      - NODE_ENV=production
+      - LLM_POD_ID=ayszlyiksblkie
+      - LLM_MODEL=llama3:8b
+      - SDXL_TURBO_ENDPOINT_ID=nrv9zea99m55rf
+      - RUNPOD_API_KEY=JNYZQ0KJXFSHDDJGL4GYKPSQM2DXAY89BTVJKGUS
+    volumes:
+      - ../../server-data/blog-data:/app/blog-data
+      - ../../server-data/user-data:/app/user-data
+      - ./.env.production:/app/.env

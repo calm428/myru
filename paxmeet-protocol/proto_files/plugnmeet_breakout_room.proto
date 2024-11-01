@@ -1,0 +1,58 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+message CreateBreakoutRoomsReq {
+  string room_id = 1;
+  string requested_user_id = 2;
+  uint64 duration = 3;
+  optional string welcome_msg = 4;
+  repeated BreakoutRoom rooms = 5;
+}
+
+message BreakoutRoom {
+  string id = 1;
+  string title = 2;
+  uint64 duration = 3;
+  bool started = 4;
+  uint64 created = 5;
+  repeated BreakoutRoomUser users = 6;
+}
+
+message BreakoutRoomUser {
+  string id = 1;
+  string name = 2;
+  bool joined = 3;
+}
+
+message IncreaseBreakoutRoomDurationReq {
+  string breakout_room_id = 1;
+  uint64 duration = 2;
+  string room_id = 3;
+}
+
+message BroadcastBreakoutRoomMsgReq {
+  string msg = 1;
+  string room_id = 3;
+}
+
+message JoinBreakoutRoomReq {
+  string breakout_room_id = 1;
+  string user_id = 2;
+  string room_id = 3;
+  bool is_admin = 4;
+}
+
+message EndBreakoutRoomReq {
+  string breakout_room_id = 1;
+  string room_id = 3;
+}
+
+message BreakoutRoomRes {
+  bool status = 1;
+  string msg = 2;
+  optional string token = 3; // join token
+  optional BreakoutRoom room = 4; // for my breakout room
+  repeated BreakoutRoom rooms = 5; // rooms list
+}

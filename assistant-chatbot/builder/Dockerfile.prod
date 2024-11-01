@@ -1,0 +1,14 @@
+FROM keymetrics/pm2:18-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY public ./public
+COPY controllers ./controllers
+COPY routes ./routes
+COPY utils ./utils
+COPY app.mjs index.mjs ./
+
+CMD ["pm2-runtime", "index.mjs"]

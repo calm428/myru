@@ -1,0 +1,36 @@
+FROM golang:1.21-alpine as builder
+
+ARG BITBUCKET_MYRU_PROTOCOL_REPO_ACCESS_TOKEN
+ARG TARGETPLATFORM
+ARG TARGETARCH
+
+RUN echo building for "$TARGETPLATFORM"
+
+RUN apk add --no-cache git
+
+WORKDIR /app
+
+RUN mkdir protocol
+COPY go.mod .
+COPY go.sum .
+COPY protocol/clone_https.sh protocol/clone_https.sh
+RUN cd protocol && chmod +x ./clone_https.sh && ./clone_https.sh $BITBUCKET_MYRU_PROTOCOL_REPO_ACCESS_TOKEN
+RUN go mod download
+
+COPY cmd cmd
+COPY pkg pkg
+COPY version version
+
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=$TARGETARCH GO111MODULE=on go build -ldflags '-w -s -buildid=' -a -o bin/paxmeet-server ./cmd/server/main.go
+
+
+FROM keymetrics/pm2:18-alpine
+
+RUN apk --no-cache add wget libreoffice mupdf-tools
+
+WORKDIR /app
+
+COPY --from=builder /app/bin/paxmeet-server .
+RUN chmod ++x /app/paxmeet-server
+
+CMD ["pm2-runtime", "/app/paxmeet-server"]

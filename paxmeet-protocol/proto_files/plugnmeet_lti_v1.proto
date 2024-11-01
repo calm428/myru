@@ -1,0 +1,33 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+message LtiClaims {
+  string user_id = 1;
+  string name = 2;
+  bool is_admin = 3;
+  string room_id = 4;
+  string room_title = 5;
+  LtiCustomParameters lti_custom_parameters = 6;
+}
+
+message LtiCustomParameters {
+  optional uint64 room_duration = 1;
+  optional bool allow_polls = 2;
+  optional bool allow_shared_note_pad = 3;
+  optional bool allow_breakout_room = 4;
+  optional bool allow_recording = 5;
+  optional bool allow_rtmp = 6;
+  optional bool allow_view_other_webcams = 7;
+  optional bool allow_view_other_users_list = 8;
+  optional bool mute_on_start = 9;
+  LtiCustomDesign lti_custom_design = 10;
+}
+
+message LtiCustomDesign {
+  optional string primary_color = 1;
+  optional string secondary_color = 2;
+  optional string background_color = 3;
+  optional string custom_logo = 4;
+}

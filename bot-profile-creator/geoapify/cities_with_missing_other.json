@@ -1,0 +1,2675 @@
+[
+  {
+    "name": "Новороссийск",
+    "name:en": "Novorossiysk",
+    "name:es": "Novorosíisk",
+    "name:ru": "Новороссийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Майкоп",
+    "name:en": "Maykop",
+    "name:es": null,
+    "name:ru": "Майкоп",
+    "name:ka": "მაიკოპი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Черкесск",
+    "name:en": "Cherkessk",
+    "name:es": null,
+    "name:ru": "Черкесск",
+    "name:ka": "ჩერკესკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Армавир",
+    "name:en": "Armavir",
+    "name:es": "Armavir",
+    "name:ru": "Армавир",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Невинномысск",
+    "name:en": "Nevinnomyssk",
+    "name:es": null,
+    "name:ru": "Невинномысск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кисловодск",
+    "name:en": "Kislovodsk",
+    "name:es": null,
+    "name:ru": "Кисловодск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ессентуки",
+    "name:en": "Yessentuki",
+    "name:es": null,
+    "name:ru": "Ессентуки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Каспийск",
+    "name:en": "Kaspiysk",
+    "name:es": "Kaspisk",
+    "name:ru": "Каспийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Хасавюрт",
+    "name:en": "Khasavyurt",
+    "name:es": "Khasavyurt",
+    "name:ru": "Хасавюрт",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Смоленск",
+    "name:en": "Smolensk",
+    "name:es": null,
+    "name:ru": "Смоленск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Белгород",
+    "name:en": "Belgorod",
+    "name:es": "Bélgorod",
+    "name:ru": "Белгород",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ставрополь",
+    "name:en": "Stavropol",
+    "name:es": null,
+    "name:ru": "Ставрополь",
+    "name:ka": "სტავროპოლი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Батайск",
+    "name:en": "Bataysk",
+    "name:es": null,
+    "name:ru": "Батайск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новошахтинск",
+    "name:en": "Novoshakhtinsk",
+    "name:es": null,
+    "name:ru": "Новошахтинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новочеркасск",
+    "name:en": "Novocherkassk",
+    "name:es": null,
+    "name:ru": "Новочеркасск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Шахты",
+    "name:en": "Shakhty",
+    "name:es": "Shajty",
+    "name:ru": "Шахты",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Элиста",
+    "name:en": "Elista",
+    "name:es": "Elistá",
+    "name:ru": "Элиста",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волгодонск",
+    "name:en": "Volgodonsk",
+    "name:es": null,
+    "name:ru": "Волгодонск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волгоград",
+    "name:en": "Volgograd",
+    "name:es": "Volgogrado",
+    "name:ru": "Волгоград",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волжский",
+    "name:en": "Volzhsky",
+    "name:es": "Volzhski",
+    "name:ru": "Волжский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Курск",
+    "name:en": "Kursk",
+    "name:es": null,
+    "name:ru": "Курск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Орёл",
+    "name:en": "Oryol",
+    "name:es": null,
+    "name:ru": "Орёл",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Старый Оскол",
+    "name:en": "Stary Oskol",
+    "name:es": "Stari Oskol",
+    "name:ru": "Старый Оскол",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Елец",
+    "name:en": "Yelets",
+    "name:es": null,
+    "name:ru": "Елец",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Калуга",
+    "name:en": "Kaluga",
+    "name:es": null,
+    "name:ru": "Калуга",
+    "name:ka": "კალუგა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тула",
+    "name:en": "Tula",
+    "name:es": null,
+    "name:ru": "Тула",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Узловая",
+    "name:en": "Uzlovaya",
+    "name:es": "Uzlovaya",
+    "name:ru": "Узловая",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новомосковск",
+    "name:en": "Novomoskovsk",
+    "name:es": "Novomoskovsk",
+    "name:ru": "Новомосковск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Серпухов",
+    "name:en": "Serpukhov",
+    "name:es": "Sérpujov",
+    "name:ru": "Серпухов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Подольск",
+    "name:en": "Podolsk",
+    "name:es": "Podolsk",
+    "name:ru": "Подольск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Домодедово",
+    "name:en": "Domodedovo",
+    "name:es": null,
+    "name:ru": "Домодедово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Зеленоград",
+    "name:en": "Zelenograd",
+    "name:es": null,
+    "name:ru": "Зеленоград",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Одинцово",
+    "name:en": "Odintsovo",
+    "name:es": "Odintsovo",
+    "name:ru": "Одинцово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Красногорск",
+    "name:en": "Krasnogorsk",
+    "name:es": "Krasnogorsk",
+    "name:ru": "Красногорск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Химки",
+    "name:en": "Khimki",
+    "name:es": "Jimki",
+    "name:ru": "Химки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Долгопрудный",
+    "name:en": "Dolgoprudny",
+    "name:es": null,
+    "name:ru": "Долгопрудный",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Мытищи",
+    "name:en": "Mytishchi",
+    "name:es": "Mytishchi",
+    "name:ru": "Мытищи",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Королёв",
+    "name:en": "Korolyov",
+    "name:es": null,
+    "name:ru": "Королёв",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пушкино",
+    "name:en": "Pushkino",
+    "name:es": null,
+    "name:ru": "Пушкино",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Раменское",
+    "name:en": "Ramenskoye",
+    "name:es": "Rámenskoye",
+    "name:ru": "Раменское",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Коломна",
+    "name:en": "Kolomna",
+    "name:es": null,
+    "name:ru": "Коломна",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воскресенск",
+    "name:en": "Voskresensk",
+    "name:es": "Voskresensk",
+    "name:ru": "Воскресенск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Жуковский",
+    "name:en": "Zhukovsky",
+    "name:es": "Zhukovski",
+    "name:ru": "Жуковский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Балашиха",
+    "name:en": "Balashikha",
+    "name:es": null,
+    "name:ru": "Балашиха",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Электросталь",
+    "name:en": "Elektrostal",
+    "name:es": null,
+    "name:ru": "Электросталь",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ногинск",
+    "name:en": "Noginsk",
+    "name:es": "Noguinsk",
+    "name:ru": "Ногинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Щёлково",
+    "name:en": "Shchyolkovo",
+    "name:es": null,
+    "name:ru": "Щёлково",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Орехово-Зуево",
+    "name:en": "Orekhovo-Zuyevo",
+    "name:es": "Oréjovo-Zúyevo",
+    "name:ru": "Орехово-Зуево",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тамбов",
+    "name:en": "Tambov",
+    "name:es": "Tambov",
+    "name:ru": "Тамбов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Муром",
+    "name:en": "Murom",
+    "name:es": null,
+    "name:ru": "Муром",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Арзамас",
+    "name:en": "Arzamas",
+    "name:es": null,
+    "name:ru": "Арзамас",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Великие Луки",
+    "name:en": "Velikiye Luki",
+    "name:es": "Velíkiye Luki",
+    "name:ru": "Великие Луки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Псков",
+    "name:en": "Pskov",
+    "name:es": null,
+    "name:ru": "Псков",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Великий Новгород",
+    "name:en": "Veliky Novgorod",
+    "name:es": null,
+    "name:ru": "Великий Новгород",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Гатчина",
+    "name:en": "Gatchina",
+    "name:es": null,
+    "name:ru": "Гатчина",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пушкин",
+    "name:en": "Pushkin",
+    "name:es": null,
+    "name:ru": "Пушкин",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Колпино",
+    "name:en": "Kolpino",
+    "name:es": null,
+    "name:ru": "Колпино",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тверь",
+    "name:en": "Tver",
+    "name:es": null,
+    "name:ru": "Тверь",
+    "name:ka": "ტვერი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сергиев Посад",
+    "name:en": "Sergiyev Posad",
+    "name:es": null,
+    "name:ru": "Сергиев Посад",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рыбинск",
+    "name:en": "Rybinsk",
+    "name:es": "Rýbinsk",
+    "name:ru": "Рыбинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Петрозаводск",
+    "name:en": "Petrozavodsk",
+    "name:es": "Petrozavodsk",
+    "name:ru": "Петрозаводск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Череповец",
+    "name:en": "Cherepovets",
+    "name:es": null,
+    "name:ru": "Череповец",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ярославль",
+    "name:en": "Yaroslavl",
+    "name:es": "Yaroslavl",
+    "name:ru": "Ярославль",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ковров",
+    "name:en": "Kovrov",
+    "name:es": null,
+    "name:ru": "Ковров",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Иваново",
+    "name:en": "Ivanovo",
+    "name:es": null,
+    "name:ru": "Иваново",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кострома",
+    "name:en": "Kostroma",
+    "name:es": "Kostromá",
+    "name:ru": "Кострома",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Дзержинск",
+    "name:en": "Dzerzhinsk",
+    "name:es": null,
+    "name:ru": "Дзержинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Вологда",
+    "name:en": "Vologda",
+    "name:es": "Vólogda",
+    "name:ru": "Вологда",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Северодвинск",
+    "name:en": "Severodvinsk",
+    "name:es": null,
+    "name:ru": "Северодвинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Мурманск",
+    "name:en": "Murmansk",
+    "name:es": "Múrmansk",
+    "name:ru": "Мурманск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Камышин",
+    "name:en": "Kamyshin",
+    "name:es": "Kamyshin",
+    "name:ru": "Камышин",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Энгельс",
+    "name:en": "Engels",
+    "name:es": "Engels",
+    "name:ru": "Энгельс",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Балаково",
+    "name:en": "Balakovo",
+    "name:es": "Balakovo",
+    "name:ru": "Балаково",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пенза",
+    "name:en": "Penza",
+    "name:es": null,
+    "name:ru": "Пенза",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сызрань",
+    "name:en": "Syzran",
+    "name:es": "Syzran",
+    "name:ru": "Сызрань",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новокуйбышевск",
+    "name:en": "Novokuybyshevsk",
+    "name:es": null,
+    "name:ru": "Новокуйбышевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Саранск",
+    "name:en": "Saransk",
+    "name:es": null,
+    "name:ru": "Саранск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Чебоксары",
+    "name:en": "Cheboksary",
+    "name:es": null,
+    "name:ru": "Чебоксары",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новочебоксарск",
+    "name:en": "Novocheboksarsk",
+    "name:es": "Novotcheboksarsk",
+    "name:ru": "Новочебоксарск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тольятти",
+    "name:en": "Togliatti",
+    "name:es": null,
+    "name:ru": "Тольятти",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Димитровград",
+    "name:en": "Dimitrovgrad",
+    "name:es": null,
+    "name:ru": "Димитровград",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Оренбург",
+    "name:en": "Orenburg",
+    "name:es": "Oremburgo",
+    "name:ru": "Оренбург",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Салават",
+    "name:en": "Salavat",
+    "name:es": "Salavat",
+    "name:ru": "Салават",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижнекамск",
+    "name:en": "Nizhnekamsk",
+    "name:es": "Nizhnekamsk",
+    "name:ru": "Нижнекамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Альметьевск",
+    "name:en": "Almetyevsk",
+    "name:es": "Almétievsk",
+    "name:ru": "Альметьевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Стерлитамак",
+    "name:en": "Sterlitamak",
+    "name:es": "Sterlitamak",
+    "name:ru": "Стерлитамак",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Уфа",
+    "name:en": "Ufa",
+    "name:es": "Ufá",
+    "name:ru": "Уфа",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нефтекамск",
+    "name:en": "Neftekamsk",
+    "name:es": "Neftekamsk",
+    "name:ru": "Нефтекамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Орск",
+    "name:en": "Orsk",
+    "name:es": "Orsk",
+    "name:ru": "Орск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Белорецк",
+    "name:en": "Beloretsk",
+    "name:es": null,
+    "name:ru": "Белорецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Миасс",
+    "name:en": "Miass",
+    "name:es": "Miass",
+    "name:ru": "Миасс",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Курган",
+    "name:en": "Kurgan",
+    "name:es": "Kurgán",
+    "name:ru": "Курган",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Йошкар-Ола",
+    "name:en": "Yoshkar-Ola",
+    "name:es": "Yoshkar-Olá",
+    "name:ru": "Йошкар-Ола",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кирово-Чепецк",
+    "name:en": "Kirovo-Chepetsk",
+    "name:es": "Kirovo-Chepetsk",
+    "name:ru": "Кирово-Чепецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ижевск",
+    "name:en": "Izhevsk",
+    "name:es": null,
+    "name:ru": "Ижевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Глазов",
+    "name:en": "Glazov",
+    "name:es": "Glázov",
+    "name:ru": "Глазов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сарапул",
+    "name:en": "Sarapul",
+    "name:es": null,
+    "name:ru": "Сарапул",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воткинск",
+    "name:en": "Votkinsk",
+    "name:es": null,
+    "name:ru": "Воткинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пермь",
+    "name:en": "Perm",
+    "name:es": "Perm",
+    "name:ru": "Пермь",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Первоуральск",
+    "name:en": "Pervouralsk",
+    "name:es": "Pervouralsk",
+    "name:ru": "Первоуральск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Екатеринбург",
+    "name:en": "Yekaterinburg",
+    "name:es": "Ekaterimburgo",
+    "name:ru": "Екатеринбург",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижний Тагил",
+    "name:en": "Nizhny Tagil",
+    "name:es": "Nizhni Tagil",
+    "name:ru": "Нижний Тагил",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Березники",
+    "name:en": "Berezniki",
+    "name:es": "Bereznikí",
+    "name:ru": "Березники",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Соликамск",
+    "name:en": "Solikamsk",
+    "name:es": "Solikamsk",
+    "name:ru": "Соликамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Серов",
+    "name:en": "Serov",
+    "name:es": "Serov",
+    "name:ru": "Серов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Каменск-Уральский",
+    "name:en": "Kamensk-Uralsky",
+    "name:es": null,
+    "name:ru": "Каменск-Уральский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тюмень",
+    "name:en": "Tyumen",
+    "name:es": "Tiumén",
+    "name:ru": "Тюмень",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Салехард",
+    "name:en": "Salekhard",
+    "name:es": "Salejard",
+    "name:ru": "Салехард",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Омск",
+    "name:en": "Omsk",
+    "name:es": null,
+    "name:ru": "Омск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рубцовск",
+    "name:en": "Rubtsovsk",
+    "name:es": "Rubtsovsk",
+    "name:ru": "Рубцовск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Барнаул",
+    "name:en": "Barnaul",
+    "name:es": "Barnaúl",
+    "name:ru": "Барнаул",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Бердск",
+    "name:en": "Berdsk",
+    "name:es": null,
+    "name:ru": "Бердск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новосибирск",
+    "name:en": "Novosibirsk",
+    "name:es": null,
+    "name:ru": "Новосибирск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Бийск",
+    "name:en": "Biysk",
+    "name:es": "Bisk",
+    "name:ru": "Бийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Прокопьевск",
+    "name:en": "Prokopyevsk",
+    "name:es": "Prokopyevsk",
+    "name:ru": "Прокопьевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новокузнецк",
+    "name:en": "Novokuznetsk",
+    "name:es": null,
+    "name:ru": "Новокузнецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кемерово",
+    "name:en": "Kemerovo",
+    "name:es": null,
+    "name:ru": "Кемерово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тобольск",
+    "name:en": "Tobolsk",
+    "name:es": null,
+    "name:ru": "Тобольск",
+    "name:ka": "ტობოლსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ханты-Мансийск",
+    "name:en": "Khanty-Mansiysk",
+    "name:es": "Janti-Mansisk",
+    "name:ru": "Ханты-Мансийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нефтеюганск",
+    "name:en": "Nefteyugansk",
+    "name:es": null,
+    "name:ru": "Нефтеюганск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сургут",
+    "name:en": "Surgut",
+    "name:es": null,
+    "name:ru": "Сургут",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижневартовск",
+    "name:en": "Nizhnevartovsk",
+    "name:es": "Nizhnevártovsk",
+    "name:ru": "Нижневартовск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ноябрьск",
+    "name:en": "Noyabrsk",
+    "name:es": null,
+    "name:ru": "Ноябрьск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новый Уренгой",
+    "name:en": "Novy Urengoy",
+    "name:es": null,
+    "name:ru": "Новый Уренгой",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Томск",
+    "name:en": "Tomsk",
+    "name:es": "Tomsk",
+    "name:ru": "Томск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Северск",
+    "name:en": "Seversk",
+    "name:es": null,
+    "name:ru": "Северск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нарьян-Мар",
+    "name:en": "Nar'yan-Mar",
+    "name:es": "Narian-Mar",
+    "name:ru": "Нарьян-Мар",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воркута",
+    "name:en": "Vorkuta",
+    "name:es": null,
+    "name:ru": "Воркута",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Норильск",
+    "name:en": "Norilsk",
+    "name:es": null,
+    "name:ru": "Норильск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владивосток",
+    "name:en": "Vladivostok",
+    "name:es": "Vladivostok",
+    "name:ru": "Владивосток",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Уссурийск",
+    "name:en": "Ussurijsk",
+    "name:es": null,
+    "name:ru": "Уссурийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Находка",
+    "name:en": "Nakhodka",
+    "name:es": null,
+    "name:ru": "Находка",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Артём",
+    "name:en": "Artyom",
+    "name:es": "Artem",
+    "name:ru": "Артём",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кызыл",
+    "name:en": "Kyzyl",
+    "name:es": null,
+    "name:ru": "Кызыл",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Абакан",
+    "name:en": "Abakan",
+    "name:es": "Abakán",
+    "name:ru": "Абакан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Красноярск",
+    "name:en": "Krasnoyarsk",
+    "name:es": "Krasnoyarsk",
+    "name:ru": "Красноярск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ангарск",
+    "name:en": "Angarsk",
+    "name:es": null,
+    "name:ru": "Ангарск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Братск",
+    "name:en": "Bratsk",
+    "name:es": null,
+    "name:ru": "Братск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Улан-Удэ",
+    "name:en": "Ulan-Ude",
+    "name:es": null,
+    "name:ru": "Улан-Удэ",
+    "name:ka": "ულან-უდე",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ачинск",
+    "name:en": "Achinsk",
+    "name:es": null,
+    "name:ru": "Ачинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Чита",
+    "name:en": "Chita",
+    "name:es": null,
+    "name:ru": "Чита",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Благовещенск",
+    "name:en": "Blagoveshchensk",
+    "name:es": "Blagovéshchensk",
+    "name:ru": "Благовещенск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Биробиджан",
+    "name:en": "Birobidzhan",
+    "name:es": "Birobidzhán",
+    "name:ru": "Биробиджан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нерюнгри",
+    "name:en": "Neryungri",
+    "name:es": null,
+    "name:ru": "Нерюнгри",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Якутск",
+    "name:en": "Yakutsk",
+    "name:es": "Yakutsk",
+    "name:ru": "Якутск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Хабаровск",
+    "name:en": "Khabarovsk",
+    "name:es": "Jabárovsk",
+    "name:ru": "Хабаровск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Комсомольск-на-Амуре",
+    "name:en": "Komsomolsk-on-Amur",
+    "name:es": "Komsomolsk del Amur",
+    "name:ru": "Комсомольск-на-Амуре",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Южно-Сахалинск",
+    "name:en": "Yuzhno-Sakhalinsk",
+    "name:es": "Yuzhno-Sajalinsk",
+    "name:ru": "Южно-Сахалинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Магадан",
+    "name:en": "Magadan",
+    "name:es": "Magadán",
+    "name:ru": "Магадан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Петропавловск-Камчатский",
+    "name:en": "Petropavlovsk-Kamchatsky",
+    "name:es": "Petropávlovsk-Kamchatski",
+    "name:ru": "Петропавловск-Камчатский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новороссийск",
+    "name:en": "Novorossiysk",
+    "name:es": "Novorosíisk",
+    "name:ru": "Новороссийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Майкоп",
+    "name:en": "Maykop",
+    "name:es": null,
+    "name:ru": "Майкоп",
+    "name:ka": "მაიკოპი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Черкесск",
+    "name:en": "Cherkessk",
+    "name:es": null,
+    "name:ru": "Черкесск",
+    "name:ka": "ჩერკესკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Армавир",
+    "name:en": "Armavir",
+    "name:es": null,
+    "name:ru": "Армавир",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Невинномысск",
+    "name:en": "Nevinnomyssk",
+    "name:es": null,
+    "name:ru": "Невинномысск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кисловодск",
+    "name:en": "Kislovodsk",
+    "name:es": null,
+    "name:ru": "Кисловодск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ессентуки",
+    "name:en": "Yessentuki",
+    "name:es": null,
+    "name:ru": "Ессентуки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Дербент",
+    "name:en": "Derbent",
+    "name:es": null,
+    "name:ru": "Дербент",
+    "name:ka": "დარუბანდი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Каспийск",
+    "name:en": "Kaspiysk",
+    "name:es": "Kaspisk",
+    "name:ru": "Каспийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Хасавюрт",
+    "name:en": "Khasavyurt",
+    "name:es": "Khasavyurt",
+    "name:ru": "Хасавюрт",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Белгород",
+    "name:en": "Belgorod",
+    "name:es": "Bélgorod",
+    "name:ru": "Белгород",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ставрополь",
+    "name:en": "Stavropol",
+    "name:es": null,
+    "name:ru": "Ставрополь",
+    "name:ka": "სტავროპოლი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Батайск",
+    "name:en": "Bataysk",
+    "name:es": "Batáisk",
+    "name:ru": "Батайск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новошахтинск",
+    "name:en": "Novoshakhtinsk",
+    "name:es": null,
+    "name:ru": "Новошахтинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Шахты",
+    "name:en": "Shakhty",
+    "name:es": null,
+    "name:ru": "Шахты",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волгодонск",
+    "name:en": "Volgodonsk",
+    "name:es": null,
+    "name:ru": "Волгодонск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Элиста",
+    "name:en": "Elista",
+    "name:es": "Elistá",
+    "name:ru": "Элиста",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Волжский",
+    "name:en": "Volzhskiy",
+    "name:es": "Volzhski",
+    "name:ru": "Волжский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Курск",
+    "name:en": "Kursk",
+    "name:es": null,
+    "name:ru": "Курск",
+    "name:ka": "კურსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Орёл",
+    "name:en": "Oryol",
+    "name:es": null,
+    "name:ru": "Орёл",
+    "name:ka": "ორიოლი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Старый Оскол",
+    "name:en": "Stary Oskol",
+    "name:es": "Stari Oskol",
+    "name:ru": "Старый Оскол",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Елец",
+    "name:en": "Yelets",
+    "name:es": null,
+    "name:ru": "Елец",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Калуга",
+    "name:en": "Kaluga",
+    "name:es": null,
+    "name:ru": "Калуга",
+    "name:ka": "კალუგა",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тула",
+    "name:en": "Tula",
+    "name:es": null,
+    "name:ru": "Тула",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Узловая",
+    "name:en": "Uzlovaya",
+    "name:es": "Uzlovaya",
+    "name:ru": "Узловая",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новомосковск",
+    "name:en": "Novomoskovsk",
+    "name:es": "Novomoskovsk",
+    "name:ru": "Новомосковск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Серпухов",
+    "name:en": "Serpukhov",
+    "name:es": "Sérpujov",
+    "name:ru": "Серпухов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Подольск",
+    "name:en": "Podolsk",
+    "name:es": "Podolsk",
+    "name:ru": "Подольск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Домодедово",
+    "name:en": "Domodedovo",
+    "name:es": null,
+    "name:ru": "Домодедово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Зеленоград",
+    "name:en": "Zelenograd",
+    "name:es": null,
+    "name:ru": "Зеленоград",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Одинцово",
+    "name:en": "Odintsovo",
+    "name:es": "Odintsovo",
+    "name:ru": "Одинцово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Красногорск",
+    "name:en": "Krasnogorsk",
+    "name:es": "Krasnogorsk",
+    "name:ru": "Красногорск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Химки",
+    "name:en": "Khimki",
+    "name:es": "Jimki",
+    "name:ru": "Химки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Балашиха",
+    "name:en": "Balashikha",
+    "name:es": null,
+    "name:ru": "Балашиха",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Долгопрудный",
+    "name:en": "Dolgoprudny",
+    "name:es": null,
+    "name:ru": "Долгопрудный",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Мытищи",
+    "name:en": "Mytishchi",
+    "name:es": "Mytishchi",
+    "name:ru": "Мытищи",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Королёв",
+    "name:en": "Korolyov",
+    "name:es": null,
+    "name:ru": "Королёв",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пушкино",
+    "name:en": "Pushkino",
+    "name:es": null,
+    "name:ru": "Пушкино",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Коломна",
+    "name:en": "Kolomna",
+    "name:es": null,
+    "name:ru": "Коломна",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воскресенск",
+    "name:en": "Voskresensk",
+    "name:es": "Voskresensk",
+    "name:ru": "Воскресенск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Жуковский",
+    "name:en": "Zhukovsky",
+    "name:es": "Zhukovski",
+    "name:ru": "Жуковский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Раменское",
+    "name:en": "Ramenskoye",
+    "name:es": "Rámenskoye",
+    "name:ru": "Раменское",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Электросталь",
+    "name:en": "Elektrostal",
+    "name:es": null,
+    "name:ru": "Электросталь",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ногинск",
+    "name:en": "Noginsk",
+    "name:es": "Noguinsk",
+    "name:ru": "Ногинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Щёлково",
+    "name:en": "Shchyolkovo",
+    "name:es": null,
+    "name:ru": "Щёлково",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Липецк",
+    "name:en": "Lipetsk",
+    "name:es": null,
+    "name:ru": "Липецк",
+    "name:ka": "ლიპეცკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тамбов",
+    "name:en": "Tambov",
+    "name:es": "Tambov",
+    "name:ru": "Тамбов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Муром",
+    "name:en": "Murom",
+    "name:es": null,
+    "name:ru": "Муром",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Дзержинск",
+    "name:en": "Dzerzhinsk",
+    "name:es": null,
+    "name:ru": "Дзержинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Арзамас",
+    "name:en": "Arzamas",
+    "name:es": null,
+    "name:ru": "Арзамас",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Великие Луки",
+    "name:en": "Velikiye Luki",
+    "name:es": "Velíkiye Luki",
+    "name:ru": "Великие Луки",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Гатчина",
+    "name:en": "Gatchina",
+    "name:es": null,
+    "name:ru": "Гатчина",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пушкин",
+    "name:en": "Pushkin",
+    "name:es": null,
+    "name:ru": "Пушкин",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Колпино",
+    "name:en": "Kolpino",
+    "name:es": null,
+    "name:ru": "Колпино",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тверь",
+    "name:en": "Tver",
+    "name:es": null,
+    "name:ru": "Тверь",
+    "name:ka": "ტვერი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сергиев Посад",
+    "name:en": "Sergiyev Posad",
+    "name:es": null,
+    "name:ru": "Сергиев Посад",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рыбинск",
+    "name:en": "Rybinsk",
+    "name:es": "Rýbinsk",
+    "name:ru": "Рыбинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Петрозаводск",
+    "name:en": "Petrozavodsk",
+    "name:es": "Petrozavodsk",
+    "name:ru": "Петрозаводск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Череповец",
+    "name:en": "Cherepovets",
+    "name:es": null,
+    "name:ru": "Череповец",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ярославль",
+    "name:en": "Yaroslavl",
+    "name:es": null,
+    "name:ru": "Ярославль",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ковров",
+    "name:en": "Kovrov",
+    "name:es": null,
+    "name:ru": "Ковров",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Иваново",
+    "name:en": "Ivanovo",
+    "name:es": null,
+    "name:ru": "Иваново",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кострома",
+    "name:en": "Kostroma",
+    "name:es": null,
+    "name:ru": "Кострома",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Вологда",
+    "name:en": "Vologda",
+    "name:es": "Vólogda",
+    "name:ru": "Вологда",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Северодвинск",
+    "name:en": "Severodvinsk",
+    "name:es": null,
+    "name:ru": "Северодвинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Мурманск",
+    "name:en": "Murmansk",
+    "name:es": "Múrmansk",
+    "name:ru": "Мурманск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Камышин",
+    "name:en": "Kamyshin",
+    "name:es": "Kamyshin",
+    "name:ru": "Камышин",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Энгельс",
+    "name:en": "Engels",
+    "name:es": "Enguels",
+    "name:ru": "Энгельс",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пенза",
+    "name:en": "Penza",
+    "name:es": null,
+    "name:ru": "Пенза",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Балаково",
+    "name:en": "Balakovo",
+    "name:es": "Balakovo",
+    "name:ru": "Балаково",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сызрань",
+    "name:en": "Syzran",
+    "name:es": "Syzran",
+    "name:ru": "Сызрань",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новокуйбышевск",
+    "name:en": "Novokuybyshevsk",
+    "name:es": null,
+    "name:ru": "Новокуйбышевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Саранск",
+    "name:en": "Saransk",
+    "name:es": null,
+    "name:ru": "Саранск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Чебоксары",
+    "name:en": "Cheboksary",
+    "name:es": null,
+    "name:ru": "Чебоксары",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новочебоксарск",
+    "name:en": "Novocheboksarsk",
+    "name:es": "Novotcheboksarsk",
+    "name:ru": "Новочебоксарск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тольятти",
+    "name:en": "Tolyatti",
+    "name:es": null,
+    "name:ru": "Тольятти",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Димитровград",
+    "name:en": "Dimitrovgrad",
+    "name:es": null,
+    "name:ru": "Димитровград",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Оренбург",
+    "name:en": "Orenburg",
+    "name:es": "Oremburgo",
+    "name:ru": "Оренбург",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Салават",
+    "name:en": "Salavat",
+    "name:es": "Salavat",
+    "name:ru": "Салават",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижнекамск",
+    "name:en": "Nizhnekamsk",
+    "name:es": "Nizhnekamsk",
+    "name:ru": "Нижнекамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Альметьевск",
+    "name:en": "Almetyevsk",
+    "name:es": "Almétievsk",
+    "name:ru": "Альметьевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Стерлитамак",
+    "name:en": "Sterlitamak",
+    "name:es": "Sterlitamak",
+    "name:ru": "Стерлитамак",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Уфа",
+    "name:en": "Ufa",
+    "name:es": "Ufá",
+    "name:ru": "Уфа",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нефтекамск",
+    "name:en": "Neftekamsk",
+    "name:es": "Neftekamsk",
+    "name:ru": "Нефтекамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Орск",
+    "name:en": "Orsk",
+    "name:es": "Orsk",
+    "name:ru": "Орск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Белорецк",
+    "name:en": "Beloretsk",
+    "name:es": null,
+    "name:ru": "Белорецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Миасс",
+    "name:en": "Miass",
+    "name:es": "Miass",
+    "name:ru": "Миасс",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Курган",
+    "name:en": "Kurgan",
+    "name:es": "Kurgán",
+    "name:ru": "Курган",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Йошкар-Ола",
+    "name:en": "Yoshkar-Ola",
+    "name:es": "Yoshkar-Olá",
+    "name:ru": "Йошкар-Ола",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Киров",
+    "name:en": "Kirov",
+    "name:es": "Kírov",
+    "name:ru": "Киров",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кирово-Чепецк",
+    "name:en": "Kirovo-Chepetsk",
+    "name:es": "Kirovo-Chepetsk",
+    "name:ru": "Кирово-Чепецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ижевск",
+    "name:en": "Izhevsk",
+    "name:es": "Izhevsk",
+    "name:ru": "Ижевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Глазов",
+    "name:en": "Glazov",
+    "name:es": "Glázov",
+    "name:ru": "Глазов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сарапул",
+    "name:en": "Sarapul",
+    "name:es": null,
+    "name:ru": "Сарапул",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воткинск",
+    "name:en": "Votkinsk",
+    "name:es": null,
+    "name:ru": "Воткинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Пермь",
+    "name:en": "Perm",
+    "name:es": "Perm",
+    "name:ru": "Пермь",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Первоуральск",
+    "name:en": "Pervouralsk",
+    "name:es": "Pervouralsk",
+    "name:ru": "Первоуральск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Екатеринбург",
+    "name:en": "Yekaterinburg",
+    "name:es": "Ekaterimburgo",
+    "name:ru": "Екатеринбург",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижний Тагил",
+    "name:en": "Nizhny Tagil",
+    "name:es": "Nizhni Tagil",
+    "name:ru": "Нижний Тагил",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Березники",
+    "name:en": "Berezniki",
+    "name:es": "Bereznikí",
+    "name:ru": "Березники",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Соликамск",
+    "name:en": "Solikamsk",
+    "name:es": "Solikamsk",
+    "name:ru": "Соликамск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Серов",
+    "name:en": "Serov",
+    "name:es": "Serov",
+    "name:ru": "Серов",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Каменск-Уральский",
+    "name:en": "Kamensk-Uralsky",
+    "name:es": null,
+    "name:ru": "Каменск-Уральский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тюмень",
+    "name:en": "Tyumen",
+    "name:es": "Tiumén",
+    "name:ru": "Тюмень",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Салехард",
+    "name:en": "Salekhard",
+    "name:es": "Salejard",
+    "name:ru": "Салехард",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Рубцовск",
+    "name:en": "Rubtsovsk",
+    "name:es": "Rubtsovsk",
+    "name:ru": "Рубцовск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Барнаул",
+    "name:en": "Barnaul",
+    "name:es": "Barnaúl",
+    "name:ru": "Барнаул",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Бердск",
+    "name:en": "Berdsk",
+    "name:es": null,
+    "name:ru": "Бердск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новосибирск",
+    "name:en": "Novosibirsk",
+    "name:es": "Novosibirsk",
+    "name:ru": "Новосибирск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Бийск",
+    "name:en": "Biysk",
+    "name:es": "Bisk",
+    "name:ru": "Бийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новокузнецк",
+    "name:en": "Novokuznetsk",
+    "name:es": null,
+    "name:ru": "Новокузнецк",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Прокопьевск",
+    "name:en": "Prokopyevsk",
+    "name:es": "Prokopyevsk",
+    "name:ru": "Прокопьевск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кемерово",
+    "name:en": "Kemerovo",
+    "name:es": null,
+    "name:ru": "Кемерово",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Тобольск",
+    "name:en": "Tobolsk",
+    "name:es": null,
+    "name:ru": "Тобольск",
+    "name:ka": "ტობოლსკი",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ханты-Мансийск",
+    "name:en": "Khanty-Mansiysk",
+    "name:es": "Janti-Mansisk",
+    "name:ru": "Ханты-Мансийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нефтеюганск",
+    "name:en": "Nefteyugansk",
+    "name:es": null,
+    "name:ru": "Нефтеюганск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Сургут",
+    "name:en": "Surgut",
+    "name:es": null,
+    "name:ru": "Сургут",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нижневартовск",
+    "name:en": "Nizhnevartovsk",
+    "name:es": null,
+    "name:ru": "Нижневартовск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ноябрьск",
+    "name:en": "Noyabrsk",
+    "name:es": null,
+    "name:ru": "Ноябрьск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Новый Уренгой",
+    "name:en": "Novy Urengoy",
+    "name:es": null,
+    "name:ru": "Новый Уренгой",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Томск",
+    "name:en": "Tomsk",
+    "name:es": "Tomsk",
+    "name:ru": "Томск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Северск",
+    "name:en": "Seversk",
+    "name:es": null,
+    "name:ru": "Северск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нарьян-Мар",
+    "name:en": "Nar'yan-Mar",
+    "name:es": "Narian-Mar",
+    "name:ru": "Нарьян-Мар",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Воркута",
+    "name:en": "Vorkuta",
+    "name:es": null,
+    "name:ru": "Воркута",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Норильск",
+    "name:en": "Norilsk",
+    "name:es": null,
+    "name:ru": "Норильск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Владивосток",
+    "name:en": "Vladivostok",
+    "name:es": "Vladivostok",
+    "name:ru": "Владивосток",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Артём",
+    "name:en": "Artyom",
+    "name:es": null,
+    "name:ru": "Артём",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Уссурийск",
+    "name:en": "Ussurijsk",
+    "name:es": null,
+    "name:ru": "Уссурийск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Находка",
+    "name:en": "Nakhodka",
+    "name:es": null,
+    "name:ru": "Находка",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Кызыл",
+    "name:en": "Kyzyl",
+    "name:es": null,
+    "name:ru": "Кызыл",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Абакан",
+    "name:en": "Abakan",
+    "name:es": "Abakán",
+    "name:ru": "Абакан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Красноярск",
+    "name:en": "Krasnoyarsk",
+    "name:es": "Krasnoyarsk",
+    "name:ru": "Красноярск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ангарск",
+    "name:en": "Angarsk",
+    "name:es": null,
+    "name:ru": "Ангарск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Иркутск",
+    "name:en": "Irkutsk",
+    "name:es": null,
+    "name:ru": "Иркутск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Братск",
+    "name:en": "Bratsk",
+    "name:es": null,
+    "name:ru": "Братск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Улан-Удэ",
+    "name:en": "Ulan-Ude",
+    "name:es": null,
+    "name:ru": "Улан-Удэ",
+    "name:ka": "ულან-უდე",
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Ачинск",
+    "name:en": "Achinsk",
+    "name:es": null,
+    "name:ru": "Ачинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Чита",
+    "name:en": "Chita",
+    "name:es": null,
+    "name:ru": "Чита",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Благовещенск",
+    "name:en": "Blagoveshchensk",
+    "name:es": "Blagovéshchensk",
+    "name:ru": "Благовещенск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Биробиджан",
+    "name:en": "Birobidzhan",
+    "name:es": "Birobidzhán",
+    "name:ru": "Биробиджан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Нерюнгри",
+    "name:en": "Neryungri",
+    "name:es": null,
+    "name:ru": "Нерюнгри",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Якутск",
+    "name:en": "Yakutsk",
+    "name:es": "Yakutsk",
+    "name:ru": "Якутск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Хабаровск",
+    "name:en": "Khabarovsk",
+    "name:es": "Jabárovsk",
+    "name:ru": "Хабаровск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Комсомольск-на-Амуре",
+    "name:en": "Komsomolsk-on-Amur",
+    "name:es": "Komsomolsk del Amur",
+    "name:ru": "Комсомольск-на-Амуре",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Южно-Сахалинск",
+    "name:en": "Yuzhno-Sakhalinsk",
+    "name:es": "Yuzhno-Sajalinsk",
+    "name:ru": "Южно-Сахалинск",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Магадан",
+    "name:en": "Magadan",
+    "name:es": "Magadán",
+    "name:ru": "Магадан",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  },
+  {
+    "name": "Петропавловск-Камчатский",
+    "name:en": "Petropavlovsk-Kamchatsky",
+    "name:es": "Petropávlovsk-Kamchatski",
+    "name:ru": "Петропавловск-Камчатский",
+    "name:ka": null,
+    "country_code": "ru",
+    "country": "Россия"
+  }
+]

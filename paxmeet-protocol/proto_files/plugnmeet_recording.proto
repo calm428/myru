@@ -1,0 +1,29 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "plugnmeet_recorder.proto";
+
+message RecordingReq {
+  RecordingTasks task = 1;
+  string room_id = 2;
+  int64 room_table_id = 3;
+  string sid = 4;
+  optional string rtmp_url = 5;
+  optional string custom_design = 6;
+}
+
+message RecordingInfoFile {
+  int64 room_table_id = 1;
+  string room_id = 2;
+  string room_title = 3;
+  string room_sid = 4;
+  int64 room_creation_time = 5;
+  int64 room_ended = 6;
+  string recording_id = 7;
+  string recorder_id = 8;
+  string file_path = 9;
+  float file_size = 10;
+  int64 creation_time = 11;
+}

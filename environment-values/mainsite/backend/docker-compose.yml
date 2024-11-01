@@ -1,0 +1,97 @@
+services:
+  redis:
+    image: redis:7-alpine
+    restart: on-failure:5
+    # ports:
+    #   - "6379:6379/tcp"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  postgres:
+    image: postgres:16-alpine
+    restart: on-failure:5
+    environment:
+      POSTGRES_USER: myru
+      POSTGRES_PASSWORD: myru-postgres
+      POSTGRES_DB: myru
+    ports:
+      - "5432:5432/tcp"
+    volumes:
+      - ../../server-data/postgres-data:/var/lib/postgresql/data
+    command:
+      ["postgres", "-c", "wal_level=logical", "-c", "wal_writer_delay=10ms"]
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "myru", "-d", "myru"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    restart: on-failure:5
+    # ports:
+    #   - "5672:5672/tcp" # for sender and consumer connections
+    #   - "15672:15672/tcp" # for serve RabbitMQ GUI
+    volumes:
+      - ../../server-data/rabbitmq-data:/var/lib/rabbitmq
+      - ../../server-data/rabbitmq-logs:/var/log/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping", "-q"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+
+  centrifugo:
+    image: centrifugo/centrifugo:v5.2
+    restart: on-failure:5
+    volumes:
+      - ./centrifugo/config.json:/centrifugo/config.json
+    command: centrifugo -c config.json
+    expose:
+      - 8000
+    # ports:
+    #   - "8000:8000/tcp"
+    depends_on:
+      - postgres
+      # - kafka
+
+  myru-api:
+    build:
+      context: ../../../code/backend
+      dockerfile: Dockerfile.dev # Dockerfile.dev when development mode, Dockerfile.prod when production mode
+    restart: on-failure:5
+    image: 058264421407.dkr.ecr.us-west-2.amazonaws.com/myru-api:latest-prod # myru-api:latest-dev when development mode, myru-api:latest-prod when production mode
+    # ports:
+    #   - "8888:8888/tcp"
+    volumes:
+      - ../../../code/backend:/app
+      # - ./app.env:/app/app.env
+      - ../../server-data/img-store:/server-data/img-store
+    depends_on:
+      - redis
+      - rabbitmq
+      - postgres
+      - centrifugo
+
+  nginx:
+    image: nginx:1-alpine
+    restart: on-failure:5
+    volumes:
+      - ./nginx:/etc/nginx/
+    ports:
+      - 82:80
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    depends_on:
+      - myru-api
+      - centrifugo

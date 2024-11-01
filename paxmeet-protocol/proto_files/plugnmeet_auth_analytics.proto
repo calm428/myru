@@ -1,0 +1,55 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+import "buf/validate/validate.proto";
+
+message FetchAnalyticsReq {
+  repeated string room_ids = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+}
+
+message AnalyticsInfo {
+  string room_id = 1;
+  string file_id = 2;
+  string file_name = 3;
+  double file_size = 4;
+  int64 creation_time = 5;
+  int64 room_creation_time = 6;
+}
+
+message FetchAnalyticsResult {
+  int64 total_analytics = 1;
+  uint32 from = 2;
+  uint32 limit = 3;
+  string order_by = 4;
+  repeated AnalyticsInfo analytics_list = 5;
+}
+
+message FetchAnalyticsRes{
+  bool status = 1;
+  string msg = 2;
+  FetchAnalyticsResult result = 3;
+}
+
+message DeleteAnalyticsReq {
+  string file_id = 1 [(buf.validate.field).required = true];
+}
+
+message DeleteAnalyticsRes {
+  bool status = 1;
+  string msg = 2;
+}
+
+message GetAnalyticsDownloadTokenReq {
+  string file_id = 1 [(buf.validate.field).required = true];
+}
+
+message GetAnalyticsDownloadTokenRes {
+  bool status = 1;
+  string msg = 2;
+  optional string token = 3;
+}

@@ -1,0 +1,113 @@
+client:
+  port: 5000
+  debug: true
+  path: "/app/client/dist"
+  ## this will require during authentication. Use random secret.
+  # openssl rand -hex 32
+  # OR
+  # cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 36 | head -n 1
+  api_key: "paxmeet"
+  secret: "zumyyYWqv7KR2kUqvYdq4z4sXg7XTBD2ljT6"
+  webhook_conf:
+    # enable webhook. This will post response for different events
+    enable: false
+    # set url bellow. This will be use as global.
+    # this is optional
+    url: ""
+    # During create room you can set custom hook URL too.
+    # if you set enable_for_per_meeting: true
+    # then extra post response will send in that address too
+    enable_for_per_meeting: false
+  prometheus:
+    enable: false
+    metrics_path: "/metrics"
+  proxy_header: "" ## you can set X-Forwarded-For
+  copyright_conf:
+    display: true
+    text: 'Powered by <a href="https://www.myru.online" target="_blank">PaxinTrade</a>'
+room_default_settings:
+  max_duration: 0 # Duration in minutes. 0 = no limit
+  max_participants: 0 # 0 = no limit
+log_settings:
+  log_file: "./log/paxmeet.log"
+  # maxsize of log file in MB
+  maxsize: 20
+  maxbackups: 4
+  # max age of log before rotate in days
+  maxage: 2
+livekit_info:
+  host: "https://meet.myru.online/livekit"
+  # host: "https://livekit.myru.online:7880"
+  api_key: "APIiYAA5w37Cfo2"
+  secret: "6aNur7qqupeZhFYNOJVUyeXxXhVw8f4lm13pEDUx8SgB"
+  # value in minutes. Default 10 minutes. Client will renew token automatically
+  token_validity: 60m
+redis_info:
+  host: redis:6379
+  username: ""
+  password: ""
+  db: 0
+#  use_tls: false
+#  To use sentinel remove the host key above and add the following
+#  sentinel_master_name: plugnmeet
+#  sentinel_addresses:
+#    - redis-sentinel-host-1:26379
+#    - redis-sentinel-host-2:26379
+#    - redis-sentinel-host-3:26379
+#  If you use a different set of credentials for sentinel add
+#  sentinel_username: user
+#  sentinel_password: pass
+mysql_info:
+  host: mariadb
+  port: 3306
+  username: "root"
+  password: "paxmeet-mysql"
+  db: "paxmeet"
+  prefix: "pnm_"
+upload_file_settings:
+  path: "./upload"
+  # file size in MB. Default 10MB
+  max_size: 10
+  # By default, files will be deleted as soon as the session will be finish.
+  # You can set it true to disable deleting files.
+  keep_forever: false
+  allowed_types:
+    - "jpg"
+    - "jpeg"
+    - "png"
+    - "svg"
+    - "pdf"
+    - "docx"
+    - "zip"
+recorder_info:
+  # this value should be same as recorder's copy_to_dir path
+  recording_files_path: "/app/recording_files"
+  token_validity: 60m
+shared_notepad:
+  enabled: true
+  # multiple hosts can be added here
+  # server will be selected based on load
+  # the value of id should be unique
+  etherpad_hosts:
+    -
+      id: "node_01"
+      host: "https://meet.myru.online/etherpad"
+      api_key: "eb2fb3fb78ca29eb6896852517d34a1be5f320664e3cce3a522a06dfa278f169"
+# azure_cognitive_services_speech:
+#   enabled: false
+#   subscription_keys:
+#     -
+#       id: "key_1"
+#       # https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started-text-to-speech?pivots=programming-language-go&tabs=linux%2Cterminal#prerequisites
+#       subscription_key: "your_key_here"
+#       service_region: westus2
+#       # Azure has limit to max concurrent connection for single key.
+#       # you should communicate with azure to know your limit. Default 20
+#       max_connection: 20
+analytics_settings:
+  enabled: true
+  # if you've multiple plugNmeet servers then make sure that
+  # all plugNmeet servers can access this directory
+  # otherwise it may fail to fetch file. This path can be NSF or other network path
+  files_store_path: ./analytics
+  token_validity: 60m

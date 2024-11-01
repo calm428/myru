@@ -1,0 +1,73 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+message CreatePollReq {
+  string room_id = 1;
+  string user_id = 2;
+  string poll_id = 3;
+  string question = 4;
+  repeated CreatePollOptions options = 5;
+}
+
+message CreatePollOptions {
+  uint32 id = 1;
+  string text = 2;
+}
+
+message PollInfo {
+  string id = 1;
+  string room_id = 2;
+  string question = 3;
+  repeated CreatePollOptions options = 4;
+  bool is_running = 5;
+  int64 created = 6;
+  string created_by = 7;
+  string closed_by = 8;
+}
+
+message SubmitPollResponseReq {
+  string room_id = 1;
+  string user_id = 2;
+  string name = 3;
+  string poll_id = 4;
+  uint64 selected_option = 5;
+}
+
+message ClosePollReq {
+  string room_id = 1;
+  string user_id = 2;
+  string poll_id = 3;
+}
+
+message PollResponsesResultOptions {
+  uint64 id = 1;
+  string text = 2;
+  uint64 vote_count = 3;
+}
+
+message PollResponsesResult {
+  string question = 1;
+  uint64  total_responses = 2;
+  repeated PollResponsesResultOptions options = 3;
+}
+
+message PollsStats {
+  uint64 total_polls = 1;
+  uint64 total_running = 2;
+}
+
+message PollResponse {
+  bool status = 1;
+  string msg = 2;
+  optional string poll_id = 3;
+  optional uint64 total_responses = 4;
+  optional uint64 voted = 5;
+  map<string, string> responses = 6;
+  repeated PollInfo polls = 7;
+  optional PollsStats stats = 8;
+  optional uint64 total_polls = 9;
+  optional uint64 total_running = 10;
+  optional PollResponsesResult poll_responses_result = 11;
+}

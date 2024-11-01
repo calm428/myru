@@ -1,0 +1,23 @@
+syntax = "proto3";
+package plugnmeet;
+
+option go_package = "github.com/mynaparrot/plugnmeet-protocol/plugnmeet";
+
+enum IngressInput {
+  RTMP_INPUT = 0;
+  WHIP_INPUT = 1;
+}
+
+message CreateIngressReq {
+  IngressInput input_type = 1;
+  string participant_name = 2;
+  string room_id = 3;
+}
+
+message CreateIngressRes {
+  bool status = 1;
+  string msg = 2;
+  IngressInput input_type = 3;
+  string url = 4;
+  string stream_key = 5;
+}

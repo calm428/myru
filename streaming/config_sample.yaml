@@ -1,0 +1,15 @@
+# Config for streaming proxy
+
+livekit:
+  uri: https://meet.myru.online/livekit
+  api_key: APIiYAA5w37Cfo2
+  api_secret: 6aNur7qqupeZhFYNOJVUyeXxXhVw8f4lm13pEDUx8SgB
+
+auth:
+  uri: https://go.myru.online/api/auth/check
+
+backend:
+  uri: https://go.myru.online/api
+
+redis:
+  url: localhost:6379
